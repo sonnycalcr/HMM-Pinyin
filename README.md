@@ -1,6 +1,28 @@
 # About
 
-`./assets/` 中为训练材料，来自于这个[仓库](https://github.com/brightmart/nlp_chinese_corpus)，仅作一些解压的处理，内容没有改动。
+`./assets/` 中为训练材料，来自于这个[仓库](https://github.com/brightmart/nlp_chinese_corpus)，仅作一些解压的处理，内容没有改动。其目录结构为，
+
+```bash
+assets/
+├── archives
+│   ├── new2016zh.zip
+│   └── wiki_zh_2019.zip
+├── news2016
+│   ├── news2016zh_train.json
+│   └── news2016zh_valid.json
+├── pure_text
+│   ├── data
+│   │   ├── data_for_A_cvt.txt
+│   │   ├── data_for_A.txt
+│   │   ├── data_for_Pi_cvt.txt
+│   │   └── data_for_Pi.txt
+│   ├── pure_CHN_text_final.txt
+│   ├── pure_CHN_text_with_pinyin_final.txt
+│   ├── pure_CHN_text_with_pinyin_verificated_final.txt
+│   └── pure_text_final.txt
+└── wiki_zh_2019
+    ...
+``` 
 
 对于 news2016，本项目只用了其中的 `news2016zh_train.json` 这份训练文本。
 
